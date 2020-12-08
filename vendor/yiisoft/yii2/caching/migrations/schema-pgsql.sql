@@ -1,20 +1,3 @@
-/**
- * Database schema required by \yii\caching\DbCache.
- *
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @author Misbahul D Munir <misbahuldmunir@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright 2008 Yii Software LLC
- * @license http://www.yiiframework.com/license/
- * @since 2.0.7
- */
-
-drop table if exists "cache";
-
-create table "cache"
-(
-    "id"  varchar(128) not null,
-    "expire" integer,
-    "data"   bytea,
-    primary key ("id")
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c3c27f25cc2289c0731b1fdca92847704e8a70a3bd3a509587f355b9332582c
+size 457

@@ -1,21 +1,3 @@
-/**
- * Database schema required by \yii\web\DbSession.
- *
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @author Misbahul D Munir <misbahuldmunir@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright 2008 Yii Software LLC
- * @license http://www.yiiframework.com/license/
- * @since 2.0.8
- */
-
-if object_id('[session]', 'U') is not null
-    drop table [session];
-
-create table [session]
-(
-    [id]  varchar(256) not null,
-    [expire] integer,
-    [data]   nvarchar(max),
-    primary key ([id])
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5daf13f1bc0aea6f0cba179448bf13c7540774253b2790ae5e08183b78f54e78
+size 504
